@@ -12,6 +12,7 @@ sources:
 
       tables:
         - name: customers
+          description: primary key for customerscs generate
           freshness: null
           columns:
             - name: id
@@ -22,6 +23,7 @@ sources:
               data_tests:
                 - dbt_utils.not_empty_string
         - name: orders
+          description: "{{ doc('orders') }}"
           freshness: null
           columns:
             - name: id
