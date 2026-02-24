@@ -1,1 +1,5 @@
-select * from {{ ref('stg_stripe_payments')}}
+{# 
+    {{ target.name}}
+    {{ target.role}}
+    {{ target.schema}}
+#}
