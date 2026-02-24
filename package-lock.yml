@@ -8,7 +8,4 @@ packages:
 - package: dbt-labs/dbt_utils
   name: dbt_utils
   version: 1.3.3
-- package: gitlabhq/snowflake_spend
-  name: snowflake_spend
-  version: 1.4.0
-sha1_hash: e778ff11941c8ec949cdb89f9792f0aed92671cc
+sha1_hash: 24f0cf723d0b2aa0ae69688e652334fabbdcf687
