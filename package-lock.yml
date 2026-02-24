@@ -1,11 +1,20 @@
 packages:
+- package: dbt-labs/audit_helper
+  name: audit_helper
+  version: 0.12.2
 - git: https://github.com/dbt-labs/dbt-codegen.git
   name: codegen
   revision: c4d495b8bb27a1448146dd7c928c56d95003c6f0
 - package: brooklyn-data/dbt_artifacts
   name: dbt_artifacts
   version: 2.10.0
+- package: godatadriven/dbt_date
+  name: dbt_date
+  version: 0.17.1
+- package: tnightengale/dbt_meta_testing
+  name: dbt_meta_testing
+  version: 0.3.6
 - package: dbt-labs/dbt_utils
   name: dbt_utils
   version: 1.3.3
-sha1_hash: 24f0cf723d0b2aa0ae69688e652334fabbdcf687
+sha1_hash: e808a3e47eb4d26357dfc7b4748bca9957cb681f
